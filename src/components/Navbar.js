@@ -17,13 +17,13 @@ function Navbar(props) {
         <li className="nav-item">
           <Link class="nav-link active" to="/"className="nav-link">Equipo</Link>
         </li>
+        <li className="nav-item">
+          <Link class="nav-link active" to="/search"className="nav-link">Busqueda</Link>
+        </li>
         
         
       </ul>
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Buscar Héroe" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
+      
     </div>
   </div>
 </nav>
