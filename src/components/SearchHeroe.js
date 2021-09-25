@@ -18,7 +18,7 @@ const SearchHeroe = ({handleSearch}) => {
         e.preventDefault();
         
         if(!form.heroe){
-            alert('Completar el campo de busqueda');
+            alert('Completar el campo de buscar heroe');
             return;
         }
         handleSearch(form);
