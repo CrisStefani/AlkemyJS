@@ -5,7 +5,7 @@ import HeroCard from '../containers/HeroCard';
 import { updateHeroes } from '../actions/index';
 import HeroForm from '../containers/HeroForm';
 
-import heroApi from '../api/heroApi';
+import apiHero from '../api/apiHero';
 
 class Home extends React.Component {
   componentDidMount() {
@@ -14,7 +14,7 @@ class Home extends React.Component {
       const heroes = [];
       let i = 1;
       while (i <= 3) {
-        heroApi
+        apiHero
           .getHeroById(Math.floor(Math.random() * 731 + 1))
           .then(data => {
             if (data) {
