@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Proptypes from 'prop-types';
 import { updateHeroes } from '../actions/index';
 import apiHero from '../api/apiHero';
-import HeroFilter from '../components/HeroFilter';
+
 
 class HeroForm extends React.Component {
   constructor(props) {
@@ -46,7 +46,7 @@ class HeroForm extends React.Component {
     return (
       <div className="searchHeroInput .row">
         <div className="col-lg-4 col-md-3 col-sm-12 col-xs-12">
-          <h3 className="searchTitle">SEARCH BY NAME</h3>
+          <h3 className="searchTitle">Busqueda</h3>
         </div>
         <div className="col-lg-4 col-md-7 col-sm-12 col-xs-12">
           <input
@@ -54,7 +54,7 @@ class HeroForm extends React.Component {
             id={heroName}
             name="heroName"
             type="text"
-            placeholder="Hero Name"
+            placeholder="heroe que buscas"
             onChange={this.handleChange}
           />
         </div>
@@ -65,10 +65,10 @@ class HeroForm extends React.Component {
             value="SUBMIT"
             onClick={this.handleSubmit}
           >
-            SEARCH
+            Buscar
           </button>
         </div>
-        <HeroFilter handleChange={this.handleFilterChange} />
+        
       </div>
     );
   }

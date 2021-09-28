@@ -2,7 +2,7 @@ import React from 'react'
 
 function Login(){
     return(
-        <div>
+        <div className="container">
             <form>
                 <div className="mb-3">
                     <label for="exampleInputEmail1" className="form-label">Dirección de mail</label>

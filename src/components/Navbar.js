@@ -15,11 +15,9 @@ function Navbar(props) {
           <Link class="nav-link active" to="/login" >Iniciar Sesion</Link>
         </li>
         <li className="nav-item">
-          <Link class="nav-link active" to="/"className="nav-link">Equipo</Link>
+          <Link class="nav-link active" to="/team"className="nav-link">Equipo</Link>
         </li>
-        <li className="nav-item">
-          <Link class="nav-link active" to="/search"className="nav-link">Busqueda</Link>
-        </li>
+        
         
         
       </ul>
