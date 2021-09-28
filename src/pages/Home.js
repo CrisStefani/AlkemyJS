@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import HeroCard from '../containers/HeroCard';
+import HeroCard from '../components/HeroCard';
 import { updateHeroes } from '../actions/index';
-import HeroForm from '../containers/HeroForm';
+import HeroForm from '../components/HeroForm';
 
 import apiHero from '../api/apiHero';
 

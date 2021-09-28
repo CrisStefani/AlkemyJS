@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style/index.scss';
+//import './style/index.scss';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import App from './components/App';
-import storage from './localStorage/storage';
+import storage from './LocalStorage/storage';
 import rootReducer from './reducers/index';
 
 const persistState = storage.loadState();
