@@ -32,26 +32,7 @@ const HeroCard = props => {
             Detalles
           </button>
         </Link>
-        <Link to={`/details/${id}`} style={{ textDecoration: 'none' }}>
-          <button
-            onClick={() => {
-              setCurrentValues('biography');
-            }}
-            type="button"
-          >
-            Biography
-          </button>
-        </Link>
-        <Link to={`/details/${id}`} style={{ textDecoration: 'none' }}>
-          <button
-            onClick={() => {
-              setCurrentValues('powerstats');
-            }}
-            type="button"
-          >
-            Powerstats
-          </button>
-        </Link>
+        
       </div>
     </div>
   );
