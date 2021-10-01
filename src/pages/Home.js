@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import HeroCard from '../components/HeroCard';
 import { updateHeroes } from '../actions/index';
 import HeroForm from '../components/HeroForm';
+import Login from '../pages/Login';
 
 import apiHero from '../api/apiHero';
 

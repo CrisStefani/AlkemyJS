@@ -35,7 +35,7 @@ function Login(){
             {( {errors} ) => (
                 <div className="contenedor">
                 <div className="formulario">
-            <Form>
+            <Form action=''>
                 <div>
                     <label for="exampleInputEmail1" className="form-label">Dirección de mail</label>
                     <Field 
